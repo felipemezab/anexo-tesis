@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Lora';
+}
+header {
+    padding: 4em 7em;
+}
+main {
+    padding: 1em 7em;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.nav ol {
+    list-style-type: none;
+    padding-top: 1em;
+}
+.nav ol a {
+    font-size: 28px;
+    color: #DB7C00;
+    text-decoration: none;
+}
+.nav ol a:hover {
+    color:#273c75;
+}
+
+h1 {
+    font-size: 39px;
+    color: #DB7C00;
+    font-weight: 400;
+    padding-bottom: 2em;
+}
+h2 {
+    font-size: 56px;
+    font-weight: 400;
+}
+h3 {
+    font-size: 32px;
+    font-weight: 400;
+}
+h4 {
+    font-size: 32px;
+    font-weight: 400;
+}
